@@ -1,0 +1,13 @@
+Für die Konferenz mit dem Namen "11th General AMaMeF Conference" soll
+eine Registrierungsseite erstellt werden. Nach der Registrierungsphase
+sollen die eingegangenen Registrierungen in einer Datei als Tabelle
+verfügbar sein.
+
+Deine Aufgabe besteht darin, eine erste Version der Registrierungsseite
+in PHP und HTML zu implementieren. Überlege Dir, welche Informationen
+für die Registrierung erforderlich sind, und denke dabei auch an
+zusätzliche Funktionen, die die Benutzerfreundlichkeit verbessern oder
+sicherheitsrelevante Aspekte berücksichtigen könnten.
+
+Eine Lösung kann beispielsweise aus einer oder zwei PHP- und
+HTML-Dateien bestehen.
