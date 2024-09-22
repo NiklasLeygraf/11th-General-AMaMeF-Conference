@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body class="body">
-    <h1 id="welcome-header">Welcome to the 11th General AMaMeF Conference</h1>
-    <p id="register-information">
-        To take part in the 11th General AMaMeF Conference, you have to enter your first and last name along with your University/College.<br>
-        We also need your email to send a confirmation message.
-    </p>
+    <div class="heading">
+        <h1 id="welcome-header">Welcome to the 11th General AMaMeF Conference</h1>
+        <p id="register-information">
+            To take part in the 11th General AMaMeF Conference, you have to enter your first and last name along with your University/College.<br>
+            We also need your email to send a confirmation message.
+        </p>
+    </div>
 
     <?php 
     // Initialize variables to hold form data and errors
@@ -88,7 +90,7 @@
                 Registration successful! Thank you, $firstName $lastName.</p></div>";
 
                 // Disable the form after successful registration
-                echo "<style>#registerForm { display: none; }</style>";
+                echo "<style>#registerForm { display: none; } #form-div { display: none; } </style>";
 
                 // Good practice: confirm email -> mail func
                 // for example setup a second page
