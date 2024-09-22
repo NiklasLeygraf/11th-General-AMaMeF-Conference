@@ -13,7 +13,6 @@
     color: #ECEFF4; 
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin-bottom: 4%;
 }
 
@@ -25,6 +24,11 @@
 #register-information {
     text-align: center;
     font-family: serif;
+    box-shadow: 0 4px 8px #394150; 
+    border-radius: 8px;
+    background: #505c75;
+    display: inline-block;
+    padding: 12px
 }
 
 #form-div {
